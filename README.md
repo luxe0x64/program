@@ -4,4 +4,6 @@ Step 2
 cd program/
 pip3 install -r requirements.txt
 Step 3
-python3 program.py
+chmod +x program.py (maybe you need sudo)
+Step 4
+./program.py
